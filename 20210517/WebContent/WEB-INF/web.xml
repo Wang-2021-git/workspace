@@ -11,6 +11,16 @@
   </welcome-file-list> 
   
   
+  
+  <servlet>
+  	<servlet-name>ServletScore</servlet-name>
+  	<servlet-class>com.jq.ServletScore</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>ServletScore</servlet-name>
+  	<url-pattern>/ServletScore</url-pattern>
+  </servlet-mapping>
+  
   <servlet>
   	<servlet-name>MyGenericServlet</servlet-name>
   	<servlet-class>com.jq.MyGenericServlet</servlet-class>
